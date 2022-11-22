@@ -31,10 +31,10 @@ The dataframe from above is converted to a csv file. This is so it can be referr
 A for loop was used to iterate through the dataframe, retrieve the latitude and longitude of each city to find the nearest hotel based on the search parameters provided, then add the hotel name to the dataframe. If a hotel isn't found, skip to the next city. Finally, any rows in the dataframe where a hotel name is not found was dropped and the remaining rows were stored into a new dataframe. The dataframe below is the result.  
 ![Weather_Search_ipynb](https://user-images.githubusercontent.com/109183214/203424321-732f9e7a-7a37-4559-9e01-d008dde75db5.png)  
 
-The map below shows the hotels in the dataframe.
+Like before, this dataframe was converted to a csv. The map below shows the hotels in the dataframe.
 ![WeatherPy_vacation_map](https://user-images.githubusercontent.com/109183214/203424369-abce38ca-79dd-44b8-8b7e-d292542a4c98.png)
 
-
+From the vacation search map, four cities are choosen that a customer might want to visit. The four cities choosen are in America. From there, the markers are created for each hotel. Finally, the hotels are connected together using the directions API. The photos are shown below.
 ![WeatherPy_travel_map_markers](https://user-images.githubusercontent.com/109183214/203424695-0d45fddc-6dfa-4b41-8321-fcc4ef888873.png)
 ![WeatherPy_travel_map](https://user-images.githubusercontent.com/109183214/203424701-b402fb61-a2ec-4716-8d2b-c5afc0d62997.png)
 
